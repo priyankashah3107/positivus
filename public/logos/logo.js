@@ -7,4 +7,14 @@ const movinglogo = [
   {id:6, img: "/logos/zoom.png"},
 ]
 
-export default movinglogo;
+export const moving = [
+  {id:1, img: "/logos/nextflix.png"},
+  {id:2, img: "/logos/hubspot.png"},
+  {id:3, img: "/logos/notion.png"},
+  {id:4, img: "/logos/dribble.png"},
+  {id:5, img: "/logos/amazon.png"},
+  {id:6, img: "/logos/zoom.png"},
+]
+
+
+export default  movinglogo;

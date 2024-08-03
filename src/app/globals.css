@@ -32,20 +32,53 @@
 
 
 .logo-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+  gap: 20px;
   overflow: hidden;
-  animation: scroll 6s linear infinite;
-  width: 70%;
-  margin-top: 20px;
+  padding: 60px 0;
+  /* background-color: antiquewhite; */
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 6px;
+  position: relative;
 }
 
-.logo-item {
-  flex: 1 0 10%;
-  cursor: pointer;
+.logo-container::before, 
+.logo-container::after{
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  
+}
+
+.logo-container::before{
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  
+}
+
+.logo-container::after{
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  
+}
+
+
+.logo-slide{
+    display: inline-block;
+    animation: scroll 6s linear infinite;
+}
+
+.logo-container:hover .logo-slide {
+  animation-play-state: paused;
+}
+
+
+.logo-slide .img{
+  height: 50px;
+  margin: 0 40px;
 }
 
 @media (min-width: 1024px) {
@@ -60,11 +93,11 @@
 }
 
 @keyframes scroll {
-  0% {
+  from{
     transform: translateX(0);
   }
-  100% {
-    transform: translateX(calc(-100% / 6));
+  to {
+    transform: translateX(-100%);
   }
 }
 
