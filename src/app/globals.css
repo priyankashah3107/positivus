@@ -31,6 +31,16 @@
 } */
 
 
+.logo{
+  display: flex;
+width: 144px;
+height: 23.613px;
+padding-right: 0px;
+justify-content: center;
+align-items: flex-start;
+gap: 8.475px;
+}
+
 .homeh{
   color: #000;
 
@@ -109,3 +119,4 @@ align-items: center;
 gap: 37px;
 background-color: var(--ter-color);
 }
+
