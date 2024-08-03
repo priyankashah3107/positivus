@@ -92,6 +92,11 @@
   }
 }
 
+
+.case-slide {
+  animation: scroll 6s linear infinite;
+}
+
 @keyframes scroll {
   from{
     transform: translateX(0);
@@ -175,7 +180,7 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 }
 .card {
-  display: flex;
+display: flex;
 width: 350px;
 padding: 50px;
 flex-direction: column;
