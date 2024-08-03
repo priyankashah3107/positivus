@@ -19,8 +19,8 @@ const Navbar = () => {
     <div className="relative cursor-pointer ">
       <div className="flex items-center justify-between  p-4 pl-6  lg:pl-8 lg:p-10">
           <Image src={"/logo.svg"} alt='img'
-           width={10} 
-           height={2} 
+           width={120} 
+           height={20} 
           className="logo lg:w-[219px] h-[36px]"/>
         <div className="lg:hidden">
           <button onClick={() => setMenuOpen(!menuOpen)}>

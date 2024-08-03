@@ -31,15 +31,43 @@
 } */
 
 
-.logo{
+.logo-container {
   display: flex;
-width: 144px;
-height: 23.613px;
-padding-right: 0px;
-justify-content: center;
-align-items: flex-start;
-gap: 8.475px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  animation: scroll 6s linear infinite;
+  width: 70%;
+  margin-top: 20px;
 }
+
+.logo-item {
+  flex: 1 0 10%;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .logo-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .logo-item {
+    flex: 1 0 auto;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 6));
+  }
+}
+
 
 .homeh{
   color: #000;
