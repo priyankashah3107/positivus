@@ -1,6 +1,7 @@
 import { Home } from '@/components/Home'
 import Logo from '@/components/Logo'
 import Navbar from '@/components/Navbar'
+import Services from '@/components/Services'
 import React from 'react'
 
 const page = () => {
@@ -10,6 +11,7 @@ const page = () => {
       <Navbar />
       <Home />
       <Logo />
+      <Services />
     </div>
    </>
   )

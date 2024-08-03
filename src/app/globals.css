@@ -149,6 +149,31 @@ line-height: 28px; /* 140% */
 background-color: var(--ter-color);
 }
 
+.services{
+  color: #000;
+/* h2 mob */
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+background-color: var(--primary-color);
+width: 171px;
+align-items: center;
+border-radius: 10px;
+}
+
+.spara{
+  color: #000;
+text-align: center;
+
+/* p mob */
+font-family: "Space Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
 .card {
   display: flex;
 width: 350px;
@@ -159,7 +184,7 @@ gap: 10px;
 border-radius: 45px;
 border: 1px #191A23;
 box-shadow: 0px 5px 0px 0px #191A23;
-background-color: var(--primary-color);
+/* background-color: var(--primary-color); */
 }
 
 .card_title{
@@ -171,6 +196,13 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+.cardpara{
+  color: var(--ter-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
 
 .foo{
   display: inline-flex;
@@ -181,3 +213,10 @@ gap: 37px;
 background-color: var(--ter-color);
 }
 
+/* Add the following classes to your global CSS file if needed */
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .lg\:gap-14 {
+    gap: 2rem;
+  }
+}
