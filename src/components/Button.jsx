@@ -4,8 +4,8 @@ import React from 'react'
 const Button = ({value}) => {
   return (
     <>
-     <button className=' bg-white border border-black text-black rounded-md pt-[20px] pb-[20px] 
-     pl-[35px] pr-[35px] '>{value}</button>
+     <button className=' w-[200px] md:w-[220px] bg-white border border-black text-black rounded-md pt-[15px] pb-[15px] 
+     pl-[20px] pr-[20px] '>{value}</button>
     </>
   )
 }

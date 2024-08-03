@@ -57,9 +57,9 @@ const Navbar = () => {
             )}
           </button>
         </div>
-        <nav className="hidden lg:flex lg:flex-row justify-center items-center  lg:gap-20">
+        <nav className="hidden lg:flex lg:flex-row justify-center items-center md:ml-20  lg:gap-20">
           {nav.map((item) => (
-            <p key={item.id} className="nav  lg:px-2.5">
+            <p key={item.id} className="md:text-medium lg:px-2.5">
               {item.name}
             </p>
           ))}

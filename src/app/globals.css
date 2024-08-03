@@ -45,7 +45,7 @@ gap: 8.475px;
   color: #000;
 
 /* h1 mob */
-font-family: "Space Grotesk";
+/* font-family: "Space Grotesk"; */
 font-size: 43px;
 font-style: normal;
 font-weight: 500;
@@ -64,7 +64,7 @@ line-height: normal;
   color: #000;
 
 /* p mob */
-font-family: "Space Grotesk";
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -73,14 +73,14 @@ line-height: 24px; /* 150% */
 
 .btnn{
   display: flex;
-width: 390px;
-padding: 20px 35px;
+width: 250px;
+padding: 12px 15px;
 justify-content: center;
 align-items: center;
-gap: 10px;
+gap: 6px;
 color: #FFF;
 text-align: center;
-font-family: "Space Grotesk";
+border-radius: 14px;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
