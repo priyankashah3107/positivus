@@ -1,3 +1,4 @@
+import Happen from '@/components/Happen'
 import { Home } from '@/components/Home'
 import Logo from '@/components/Logo'
 import Navbar from '@/components/Navbar'
@@ -12,6 +13,7 @@ const page = () => {
       <Home />
       <Logo />
       <Services />
+      <Happen />
     </div>
    </>
   )
