@@ -1,33 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  
+  --primary-color: #B9FF66;
+  --secondary-color: #F3F3F3;
+  --ter-color: #191A23;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+/* @layer components {
+  .card {
+    @apply bg-green-300 p-6 rounded-lg shadow-lg;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .card-title {
+    @apply text-2xl font-bold mb-2;
+    font-family: 'Rubik Wet Paint', sans-serif;
   }
+  .card-text {
+    @apply text-base;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+} */
+
+
+.homeh{
+  color: #000;
+
+/* h1 mob */
+font-family: "Space Grotesk";
+font-size: 43px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.imgh{
+  display: inline-flex;
+  padding: 0px 34px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.homep{
+  color: #000;
+
+/* p mob */
+font-family: "Space Grotesk";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.btnn{
+  display: flex;
+width: 390px;
+padding: 20px 35px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+text-align: center;
+font-family: "Space Grotesk";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.card {
+  display: flex;
+width: 350px;
+padding: 50px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 45px;
+border: 1px #191A23;
+box-shadow: 0px 5px 0px 0px #191A23;
+background-color: var(--primary-color);
+}
+
+.card_title{
+  color: #000;
+/* h3 mob */
+/* font-family: "Space Grotesk"; */
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
