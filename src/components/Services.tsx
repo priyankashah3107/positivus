@@ -7,7 +7,7 @@ const para = "At our digital marketing agency, we offer a range of services to h
 const Services = () => {
   return (
     <> 
-      <div className='p-4 pl-6  lg:pl-20 lg:p-10  flex flex-col items-center lg:flex-row gap-6 lg:gap-10 mt-4 lg:mt-24 '>
+      <div className='p-4 pl-6 autoShow lg:pl-20 lg:p-10  flex flex-col items-center lg:flex-row gap-6 lg:gap-10 mt-4 lg:mt-24 '>
         <h2 className='services '>{head}</h2>
         <p className='spara lg:text-start lg:text-[18px] lg:w-[580px]'>{para}</p>
       </div>

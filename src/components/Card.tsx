@@ -17,7 +17,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({title, title2,  img, btn , para, bgColor, titleCol, titleCol2}) => {
   return (
     <>
-    <div className='card bg-[#F3F3F3] lg:w-[600px] h-[310px]' 
+    <div className='card bg-[#F3F3F3] lg:w-[600px] h-[310px] ' 
      style={{backgroundColor: bgColor}}>
       <div className='flex flex-col '>
       <h3 className='card_title bg-[#B9FF66] pl-2 rounded-xl lg:w-[221px] lg:font-[30px]'
