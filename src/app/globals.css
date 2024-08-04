@@ -97,6 +97,10 @@
   animation: scroll 6s linear infinite;
 }
 
+/* .name-slide {
+  animation: scroll 7s linear infinite;
+} */
+
 @keyframes scroll {
   from{
     transform: translateX(0);
@@ -293,13 +297,21 @@ flex-shrink: 0;
 .testinomial{
   width: 390px; 
   height: 554px;
-  display: flex;
+  /* display: flex; */
 padding: 30px 30px 60px 30px;
-flex-direction: column;
-align-items: flex-start;
+/* flex-direction: column;
+align-items: flex-start; */
 gap: 60px;
 border-radius: 45px;
 background: #191A23;
+}
+
+.greencard{
+  width: 330px;
+height: 302px;
+fill: #21241D;
+stroke-width: 2px;
+stroke: #FFF;
 }
 
 .autoShow{
