@@ -12,9 +12,10 @@ interface CardProps {
   bgColor: string,
   titleCol: string,
   titleCol2: string
+  learn: string
 }
 
-const Card: React.FC<CardProps> = ({title, title2,  img, btn , para, bgColor, titleCol, titleCol2}) => {
+const Card: React.FC<CardProps> = ({title, title2,  img, btn , para, bgColor, titleCol, titleCol2, learn}) => {
   return (
     <>
     <div className='card bg-[#F3F3F3] lg:w-[600px] h-[310px] ' 
@@ -30,7 +31,8 @@ const Card: React.FC<CardProps> = ({title, title2,  img, btn , para, bgColor, ti
 
       <div className='flex lg:flex-row items-center justify-between gap-4'>
         <Image src={btn} alt='btn' width={41} height={41} />
-        <p className='cardpara hidden lg:block'>{para}</p>
+        <p className='cardpara hidden lg:block' 
+        style={{color: learn}}>{para}</p>
       </div>
 
     </div>
