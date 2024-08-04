@@ -1,6 +1,7 @@
 "use client";
 import Image from 'next/image';
 import React, { useState } from 'react';
+import Heading from './Heading';
 
 
 type ProcessKey = {
@@ -79,12 +80,16 @@ const WorkingProcess = () => {
 
   return (
     <div className="p-4 pl-6 lg:pl-20 lg:p-10">
-      <div className="flex flex-row items-center gap-6 lg:gap-10 mt-4 lg:mt-24 autoShow">
+      {/* <div className="flex flex-col lg:flex-row  items-center gap-6 lg:gap-10 mt-4 lg:mt-24 autoShow">
         <h2 className="services md:w-[398px] md:h-[52px]">{head}</h2>
         <p className="spara md:w-[292px] lg:text-lg lg:text-start lg:text-[18px]">{para}</p>
-      </div>
+      </div> */}
 
-      <div className="p-4 pl-6 lg:pl-20 lg:p-10">
+      <Heading head={"Our Working Process"} 
+      para={"Step-by-Step Guide to Achieving Your Business Goals"}
+       hwidth='' pwidth=''/>
+
+      <div className="mt-10">
         {processkeys.map((val, idx) => (
           <div
             key={val.key}
