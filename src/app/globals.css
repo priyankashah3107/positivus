@@ -225,3 +225,11 @@ background-color: var(--ter-color);
     gap: 2rem;
   }
 }
+
+@layer utilities {
+  @screen lg {
+    .lg:case-slide-disabled {
+      animation: none;
+    }
+  }
+}
