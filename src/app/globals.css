@@ -218,18 +218,39 @@ gap: 37px;
 background-color: var(--ter-color);
 }
 
-/* Add the following classes to your global CSS file if needed */
 
-@media (min-width: 1024px) and (max-width: 1024px) {
-  .lg\:gap-14 {
-    gap: 2rem;
-  }
+.workingP{
+  display: flex;
+width: 392px;
+padding: 30px;
+justify-content: space-between;
+align-items: center;
+border-radius: 45px;
+border: 1px solid #191A23;
+/* background: var(--secondary-color); */
+box-shadow: 0px 5px 0px 0px #191A23;
 }
 
-@layer utilities {
-  @screen lg {
-    .lg:case-slide-disabled {
-      animation: none;
-    }
-  }
+.num{
+  color: #000;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.workpara{
+  color: #000;
+
+/* h4 mob */
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.workingbtn{
+  width: 30px;
+height: 30px;
+flex-shrink: 0;
 }

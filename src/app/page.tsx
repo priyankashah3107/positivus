@@ -4,6 +4,7 @@ import { Home } from '@/components/Home'
 import Logo from '@/components/Logo'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
+import WorkingProcess from '@/components/WorkingProcess'
 import React from 'react'
 
 const page = () => {
@@ -16,6 +17,7 @@ const page = () => {
       <Services />
       <Happen />
       <CaseStudies />
+      <WorkingProcess />
     </div>
    </>
   )

@@ -7,8 +7,9 @@ const para = "Explore Real-Life Examples of Our Proven Digital Marketing Success
 const CaseStudies = () => {
   return (
     <>
+      {/* heading the bhi prop bana lungi baad mei */}
       <div className='p-4 pl-6 lg:pl-20 lg:p-10 flex flex-col lg:flex-row items-center gap-6 lg:gap-10 mt-4 lg:mt-24 '>
-        <h2 className='services md:w-[265px] md:h-[52px]'>{head}</h2>
+        <h2 className='services  md:w-[265px] md:h-[52px]'>{head}</h2>
         <p className='spara lg:text-lg lg:text-start lg:text-[18px] lg:w-[580px]'>{para}</p>
       </div>
         
