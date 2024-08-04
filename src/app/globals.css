@@ -189,6 +189,7 @@ gap: 10px;
 border-radius: 45px;
 border: 1px #191A23;
 box-shadow: 0px 5px 0px 0px #191A23;
+cursor: pointer;
 /* background-color: var(--primary-color); */
 }
 
@@ -253,6 +254,36 @@ line-height: normal;
   width: 30px;
 height: 30px;
 flex-shrink: 0;
+}
+
+
+.teamName{
+  color: #000;
+  /* h4 mob */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+} 
+
+.teamDesc{
+  color: #000;
+
+  /* p mob */
+ 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.teamPara{
+  color: #000;
+  font-size: 16px;
+  width: 290px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
 }
 
 .autoShow{
