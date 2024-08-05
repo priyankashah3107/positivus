@@ -22,7 +22,7 @@ const Testimonials = () => {
         <p className='spara lg:text-lg lg:text-start lg:text-[18px] lg:w-[580px]'>{para}</p>
       </div>
 
-      <div className="testinomial flex flex-row overflow-hidden  lg:w-full mt-10 ">
+      <div className="testinomial flex flex-row overflow-hidden md:w-full mt-10 ">
         <Testi para={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur velit culpa veritatis expedita excepturi ut nulla in eius voluptate?"} name={"Jhon Smith"} desc={"Marketing Director at XYZ Corp"} />
         <Testi para={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur velit culpa veritatis expedita excepturi ut nulla in eius voluptate?"} name={"Jhon Smith"} desc={"Marketing Director at XYZ Corp"} />
         <Testi para={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aspernatur velit culpa veritatis expedita excepturi ut nulla in eius voluptate?"} name={"Jhon Smith"} desc={"Marketing Director at XYZ Corp"} />

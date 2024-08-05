@@ -35,7 +35,7 @@ const Testi: React.FC<TestiProps> = ({para, name, desc}) => {
      
      
 <div className=" starcard justify-start relative w-full ">
-<div className='text-white flex flex-row justify-center items-center text-center gap-2 lg:gap-6 cursor-pointer absolute left-10 bottom-0'>
+<div className='text-white flex flex-row justify-center items-center text-center gap-2 lg:gap-6 cursor-pointer absolute -left-96 bottom-0 md:-left-72'>
     <ArrowLeftCircle className='mr-10 lg:mr-10 size-[60px]' />
     {stars.map((val, idx) => (
   <div key={idx} className=''>
