@@ -69,9 +69,9 @@ const Footer = () => {
     <div className="p-4 pl-6 lg:pl-20 lg:p-10">
       <div className="foo text-white flex flex-col">
 
-        <div className="flex flex-row justify-between pl-20 items-center gap-10">
+        <div className="flex flex-row justify-between md:pl-20 items-center md:gap-10">
           <div>
-          <Image src={"/logo.png"} alt='logo' width={144} height={23}
+          <Image src={"/logo.png"} alt='logo' width={100} height={23}
           className="lg:w-[180px] lg:h-[29px] cursor-pointer" />
           </div>
          
@@ -83,7 +83,7 @@ const Footer = () => {
           ))}
          </div>
            
-           <div className='flex flex-row gap-10 md:ml-36 items-center '>
+           <div className='flex flex-row gap-10 md:ml-36 items-center hidden lg:block '>
            {icons.map((val) => (
             <Image src={val.icon} alt='icons' width={30} height={30}
             className='flex flex-row gap-10' />
