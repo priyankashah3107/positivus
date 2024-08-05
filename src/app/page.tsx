@@ -1,5 +1,6 @@
 import CaseStudies from '@/components/CaseStudies'
 import ContactUs from '@/components/ContactUs'
+import Footer from '@/components/Footer'
 import Happen from '@/components/Happen'
 import { Home } from '@/components/Home'
 import Logo from '@/components/Logo'
@@ -24,6 +25,7 @@ const page = () => {
        <Team />
        <Testimonials />
        <ContactUs />
+       <Footer />
     </div>
    </>
   )
