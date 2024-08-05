@@ -2,7 +2,6 @@
 import Testi from './Testi'
 import { ArrowLeftCircle, ArrowRightCircle, Star } from 'lucide-react'
 import React from 'react'
-import Image from 'next/image'
 const head = "Testimonials"
 const para = "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
 

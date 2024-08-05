@@ -1,4 +1,5 @@
 import CaseStudies from '@/components/CaseStudies'
+import ContactUs from '@/components/ContactUs'
 import Happen from '@/components/Happen'
 import { Home } from '@/components/Home'
 import Logo from '@/components/Logo'
@@ -22,6 +23,7 @@ const page = () => {
       <WorkingProcess />
        <Team />
        <Testimonials />
+       <ContactUs />
     </div>
    </>
   )

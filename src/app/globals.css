@@ -314,6 +314,34 @@ stroke-width: 2px;
 stroke: #FFF;
 }
 
+.contact{
+  background-color: #F3F3F3;
+  /* display: inline-flex; */
+padding: 40px 0px;
+/* flex-direction: column; */
+/* align-items: center; */
+gap: 36px;
+border-radius: 45px;
+
+}
+
+.form{
+  width: 390px;
+  height: 540px;
+  padding: 20px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 10px; */
+}
+
+.input{
+   border: #000;
+   border-color: black;
+   padding: 14px;
+   border-radius: 10px;
+  
+}
+
 .autoShow{
   animation: autoShowAnimation both;
   animation-timeline: view(70% 5%);
