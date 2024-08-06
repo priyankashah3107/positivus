@@ -12,7 +12,7 @@ interface CaseProps {
 const Case: React.FC<CaseProps> = ({title, para,  img,}) => {
   return (
     <>
-    <div className='card lg:rounded-md lg:w-full case-slide lg:case-slide-disabled   text-white bg-[#191A23] l   h-[310px]' 
+    <div className='card rounded-xl lg:w-full case-slide lg:case-slide-disabled   text-white bg-[#191A23]    h-[310px]' 
      >
       <div className='flex flex-col gap-6'>
       <p className=" w-[180px] lg:w-[286px] lg:text-lg text-base font-normal leading-normal text-white">{title}</p>

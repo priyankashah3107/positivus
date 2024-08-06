@@ -7,7 +7,7 @@ const btn = "See all team"
 const Team = () => {
   return (
     <>
-    <div className="p-4 pl-6 lg:pl-20 lg:p-10"> 
+    <div className="p-4 pl-10 lg:pl-20 lg:p-10"> 
 
     <div className=' flex flex-col lg:flex-row items-center gap-6 lg:gap-10 mt-4 lg:mt-24 autoShow '>
         <h2 className='services  md:w-[265px] md:h-[52px]'>{head}</h2>

@@ -9,7 +9,7 @@ const bttn = "Book a consultation"
 export const Home = () => {
   return (
    <>
-    <div className='flex flex-col lg:flex-row justify-between p-4 pl-6  lg:pl-20 lg:p-10'>
+    <div className='flex flex-col lg:flex-row justify-between p-4 pl-10  lg:pl-20 lg:p-10'>
       <div className='flex flex-col gap-6 '>
          <h1 className='homeh  lg:text-6xl lg:w-[531px]'>{head}</h1>
          <Image  src={"/home.png"} alt='home'

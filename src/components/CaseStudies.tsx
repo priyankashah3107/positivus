@@ -13,7 +13,7 @@ const CaseStudies = () => {
         <p className='spara lg:text-lg lg:text-start lg:text-[18px] lg:w-[580px]'>{para}</p>
       </div>
         
-      <div className='p-4 pl-6 lg:pl-20 lg:p-10 flex flex-row gap-8 lg:gap-0 w-[350px] md:w-[750px] lg:w-full overflow-hidden cursor-pointer'>
+      <div className='p-4 pl-24 mt-10 lg:pl-20 lg:p-10 flex flex-row gap-8  w-[400px] md:w-full lg:w-full overflow-hidden cursor-pointer'>
 
         <Case title={"For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales."} para={"Learn more"} img={"/icon.svg"} />
         <Case title={"For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic."} para={"Learn more"} img={"/icon.svg"} />

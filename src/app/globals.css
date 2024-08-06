@@ -344,7 +344,8 @@ padding: 30px 30px 60px 30px;
 /* flex-direction: column;
 align-items: flex-start; */
 gap: 60px;
-border-radius: 45px;
+/* border-radius: 45px; */
+border-top: 45px;
 background: #191A23;
 }
 

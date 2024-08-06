@@ -6,7 +6,7 @@ const btn = "Get your proposal"
 const Happen = () => {
   return (
      <>
-       <div className='p-4 pl-6  lg:pl-20 lg:p-10'>
+       <div className='p-4 pl-10  lg:pl-20 lg:p-10'>
        <div className='card bg-[#F3F3F3] w-[390px] h-[400px] md:h-[310px] md:w-full lg:w-full'>
       
         <div className='flex flex-row justify-between lg:gap-52'>
