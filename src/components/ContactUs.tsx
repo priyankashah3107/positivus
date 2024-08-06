@@ -1,9 +1,15 @@
+'use client'
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 const head = "Contact Us"
 const para = "Connect with Us: Let's Discuss Your Digital Marketing Needs"
 const btn = "Send Message"
 const ContactUs = () => {
+  const [selectedOption, setSelectedOption] = useState<string>('hi')
+
+  const handleOptionChange = (e: any) => {
+    setSelectedOption(e.target.value)
+  }
   return (
     <>
     <div className="p-4 pl-6 lg:pl-20 lg:p-10">
@@ -18,16 +24,20 @@ const ContactUs = () => {
             
              <div className='flex flex-row gap-20 justify-between  md:p-20 '>
              
-              <form className='form md:w-[556px] h-[443px]'>
+              <form className='form md:w-[556px] h-[443px] mb-14 md:mb-2'>
                 <div className='flex flex-col gap-14'>
                
                 <div className='flex flex-row gap-6 '>
                <div className="flex flex-row gap-4">
-               <input type="radio" id="hi" name="hi" value="hi" checked  />
+               <input type="radio" id="hi" name="contact" value="hi" checked={selectedOption === "hi"}
+               onChange={handleOptionChange}  />
+               <label htmlFor="quote">Say hi</label>
                </div>
 
                <div className='flex flex-row gap-4'>
-               <input type="radio" id="quote" name="quote" value="quote" />
+               <input type="radio" id="quote" name="contact" value="quote" 
+               checked={selectedOption === 'quote'}
+               onChange={handleOptionChange} />
               <label htmlFor="quote">Get a Quote</label>
                </div>
               </div>
@@ -51,7 +61,7 @@ const ContactUs = () => {
                className='input md:h-[auto] '  />
                </div>
                  
-                 <button className='btnn'>{btn}</button>
+                 <button className='btnn '>{btn}</button>
               </div>
               </form>
                
