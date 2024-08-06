@@ -391,6 +391,29 @@ width: 420px;
   animation-timeline: view(70% 5%);
 }
 
+.typeEffect {
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(34), cursor 0.5s step-end infinite alternate;
+}
+
+/* Cursor Blinking */
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+
 @keyframes autoShowAnimation{
 
   from{

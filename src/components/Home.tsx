@@ -11,11 +11,11 @@ export const Home = () => {
    <>
     <div className='flex flex-col lg:flex-row justify-between p-4 pl-10  lg:pl-20 lg:p-10'>
       <div className='flex flex-col gap-6 '>
-         <h1 className='homeh  lg:text-6xl lg:w-[531px]'>{head}</h1>
+         <h1 className='homeh   lg:text-6xl lg:w-[531px]'>{head}</h1>
          <Image  src={"/home.png"} alt='home'
          width={300} height={300}
          className="imgh md:w-[550px]  lg:hidden"/>
-         <p className='homep lg:w-[498px] text-xl'>{para}</p>
+         <p className='homep  lg:w-[498px] text-xl'>{para}</p>
          <button className='btnn'>{bttn}</button>
       </div>
       {/* visible only in desktop */}
